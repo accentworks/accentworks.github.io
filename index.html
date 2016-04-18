@@ -3,38 +3,78 @@
 <head>
   <meta charset="UTF-8">
   <link href="./stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-
+  <link rel="stylesheet" href="//fonts.googleapis.com/earlyaccess/notosansjapanese.css">
+  <link rel="icon" type="image/png" href="./images/favicon.png" sizes="96x96">
   <title>Accent Works</title>
 </head>
 <body>
 <header>
   <nav>
-    <li><a href="#"><img src="./images/logo_s.svg" alt="TOPへもどる" width="80"></a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Service</a></li>
-    <li><a href="#">Product</a></li>
-    <li><a href="#">Contact</a></li>
+    <ul>
+      <li><a href="#"><img src="./images/logo_s.svg" alt="TOPへもどる" width="80"></a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Service</a></li>
+      <li><a href="#">Product</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
   </nav>
 </header>
 
 <main>
-  <section id="top">
+  <section class="layout-top">
     <div class="catch">
       <h1><img src="./images/logo_l.svg" alt="Accent Works" width="180"></h1>
       <p>
-        「作品の装丁にアクセントが欲しい」「サークルのロゴを作りたい」etc...<br>
+        「作品のもっとアクセントが欲しい」「サークルを多くの人に知ってほしい」etc...<br>
         アクセントワークスは、そんな同人活動のデザイン作業をお手伝いします！
       </p>
     </div>
   </section>
 
-  <section id="about">
+  <section class="layout-basic about">
     <div class="inner">
       <h2>About</h2>
+      <p></p>
     </div>
   </section>
-  <section></section>
-  <section></section>
+
+  <section class="layout-basic service">
+    <div class="inner">
+      <h2>Service</h2>
+      <ul class="service-list">
+        <li>
+          <h3><i class="fa fa-magic" aria-hidden="true"></i></h3>
+          <strong>装丁・表紙デザイン</strong>
+          <p>より多くの方に手にとってもらえる魅力的な表紙のデザインから、冊子のレイアウトまでお手伝いします！データはすぐに入稿可能な状態でお渡しします。</p>
+        </li>
+        <li>
+          <h3><i class="fa fa-fonticons" aria-hidden="true"></i></h3>
+          <strong>ロゴデザイン</strong>
+          <p>作品の個性を伝えたい、サークルを覚えてもらいたい...そんな思いを込めて1つのかたちに作り上げます。</p>
+        </li>
+        <li>
+          <h3><i class="fa fa-desktop" aria-hidden="true"></i></h3>
+          <strong>web制作</strong>
+          <p>テンプレートサイトやミニブログでは表せない作品の魅力を、オリジナルのページで表現します。お問い合わせ窓口が必要な場合でも対応可能です。</p>
+        </li>
+        <li>
+          <h3><i class="fa fa-paw" aria-hidden="true"></i></h3>
+          <strong>そのほか</strong>
+          <p>グッズや名刺、ノベルティの制作から、猫の手も借りたいようなお急ぎでのデザインのご依頼など、まずはお気軽にご相談ください。</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="layout-basic product">
+    <div class="inner">
+      <h2>Product</h2>
+      <div class="item">
+        <div class="item-left"><img src="./images/pic-product01.jpg" width="200" alt=""><img src="./images/pic-product02.jpg" width="200" alt=""><img src="./images/pic-product03.jpg" width="200" alt=""></div>
+        <div class="item-right"></div>
+      </div>
+    </div>
+  </section>
   <section></section>
 </main>
 
